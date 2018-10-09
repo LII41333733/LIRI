@@ -4,14 +4,22 @@ const Spotify = require("node-spotify-api")
 const moment = require("moment")
 
 //turn on dotenv to load up environment variables from .env file
-require("dotenv").config
+require("dotenv").config();
 
 const spotifyKeys = require("./keys.js")
 
 //turn on new spotify app
-// const spotify = new Spotify(spotifyKeys.spotify)
+const spotify = new Spotify(spotifyKeys.spotify)
+console.log(spotify)
 
 const command = process.argv.slice(2);
+
+
+
+
+
+
+
 
 if (command[0] === 'movie-this') {
 
