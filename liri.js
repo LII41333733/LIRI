@@ -72,18 +72,22 @@ function runProgram(command = process.argv.slice(2)[0], input = process.argv.sli
     const title = input ? input : "Mr.Nobody"
     
     request(`http://www.omdbapi.com/?t=${title}&apikey=a0b9b6ea`, (error, response, body)  => {
-      // console.log(JSON.parse(body))
+      console.log(JSON.parse(body))
       
       console.log(`-------------------------------------------`)
       console.log(`Movie title: ${JSON.parse(body).Title}`)
       console.log(`Year Released: ${JSON.parse(body).Year}`)
       console.log(`IMDB Rating: ${JSON.parse(body).Ratings[0].Value}`)
-
-      // if (JSON.parse(body).Ratings[1].Value) {
+      // var parsedBody = null;
+      // if(body){
+      //   parsedBody = JSON.parse(body)
+      // }
+      // if (parsedBody && parsedBody.Ratings && parsedBody.Ratings[1]) {
+      //   console.log(JSON.parse(body))
       //   console.log(`Rotten Tomatoes Rating: ${JSON.parse(body).Ratings[1].Value}`)
       // }
 
-      console.log(`Rotten Tomatoes Rating: ${JSON.parse(body).Ratings[1].Value}` || `None`)
+
       console.log(`Country: ${JSON.parse(body).Country}`)
       console.log(`Language: ${JSON.parse(body).Language}`)
       console.log(`Plot: ${JSON.parse(body).Plot}`)
