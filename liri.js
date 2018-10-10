@@ -61,16 +61,15 @@ function getMovie(input) {
 function getSong(input) {
   const song = input ? input : "The Sign Ace of Base"
   spotify.search({ type: 'track', query: song, limit: 1 }, (err, data) => {
-    console.log(JSON.stringify(data, null, 2))
-    // console.log(JSON.stringify(data, null, 2));
-    // console.log(JSON.stringify(data["tracks"]["items"][0]["name"], null, 2))
-    // err ? console.log('Error occurred: ' + err) : (
-    //   console.log(`-------------------------------------------`),
-    //   console.log(`Name: ${JSON.stringify(data["tracks"]["items"][0]["name"], null, 2)}`),
-    //   console.log(`Artist(s): ${JSON.stringify(data["tracks"]["items"][0]["artists"][0]["name"], null, 2)}`),
-    //   console.log(`Album: ${JSON.stringify(data["tracks"]["items"][0]["album"]["name"], null, 2)}`),
-    //   console.log(`Preview Link: ${JSON.stringify(data["tracks"]["items"][0]["external_urls"]["spotify"], null, 2)}`),
-    //   console.log(`-------------------------------------------`)
-    
-  }
-)}
+    err ? console.log('Error occurred: ' + err) : (
+      data.tracks.items.forEach((event, i) => {
+        console.log(`-------------------------------------------`)
+        console.log(`Name: ${data.tracks.items[0].name}`)
+        console.log(`Artist(s): ${data.tracks.items[0].artists[0].name}`)
+        console.log(`Album: ${data.tracks.items[0].album.name}`)
+        console.log(`URL: ${data.tracks.items[0].external_urls.spotify}`)
+        console.log(`-------------------------------------------`)
+      })
+    )
+  })
+}
