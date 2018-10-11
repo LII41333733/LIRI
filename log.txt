@@ -1,0 +1,91 @@
+-- COMMAND LOG --
+=========================================================================================== 
+COMMAND: movie-this Frozen -- Thursday, October 11, 2018 3:43 PM
+------------------------------------------- 
+Movie title: Frozen 
+Year Released: 2013 
+IMDB Rating: 7.5/10 
+Rotten Tomatoes Rating: 90% 
+Country: USA 
+Language: English, Norwegian 
+Plot: When the newly-crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.
+Actors Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad
+
+============================================================================================ 
+COMMAND: concert-this Pat Metheny -- Thursday, October 11, 2018 3:43 PM
+------------------------------------------- 
+Venue Name: The Center for the Performing Arts 
+Location: Carmel, IN 
+Date of Event: 10/11/2018
+------------------------------------------- 
+Venue Name: Chicago Theater 
+Location: Chicago, IL 
+Date of Event: 10/12/2018
+------------------------------------------- 
+Venue Name: Sharon Lynne Wilson Center for the Arts 
+Location: Brookfield, WI 
+Date of Event: 10/13/2018
+------------------------------------------- 
+Venue Name: Shannon Hall 
+Location: Madison, WI 
+Date of Event: 10/14/2018
+------------------------------------------- 
+Venue Name: Newman Center for the Performing Arts 
+Location: Denver, CO 
+Date of Event: 10/17/2018
+------------------------------------------- 
+Venue Name: Vogue Theatre 
+Location: Vancouver,  
+Date of Event: 10/20/2018
+------------------------------------------- 
+Venue Name: Boulder Theater 
+Location: Boulder, CO 
+Date of Event: 10/16/2018
+------------------------------------------- 
+Venue Name: Admiral Theatre 
+Location: Bremerton, WA 
+Date of Event: 10/21/2018
+------------------------------------------- 
+Venue Name: Crest Theatre 
+Location: Sacramento, CA 
+Date of Event: 10/24/2018
+------------------------------------------- 
+Venue Name: The Shedd Institute 
+Location: Eugene, OR 
+Date of Event: 10/22/2018
+------------------------------------------- 
+Venue Name: Royce Hall 
+Location: Los Angeles, CA 
+Date of Event: 10/26/2018
+------------------------------------------- 
+Venue Name: Revolution Hall 
+Location: Portland, OR 
+Date of Event: 10/19/2018
+------------------------------------------- 
+Venue Name: Lobero Theatre 
+Location: Santa Barbara, CA 
+Date of Event: 10/28/2018
+------------------------------------------- 
+Venue Name: San Diego Symphony Hall 
+Location: San Diego, CA 
+Date of Event: 10/27/2018
+------------------------------------------- 
+Venue Name: Fox Theater 
+Location: Oakland, CA 
+Date of Event: 10/25/2018
+------------------------------------------- 
+Venue Name: Blue Note Hawaii 
+Location: Honolulu, HI 
+Date of Event: 10/29/2018
+------------------------------------------- 
+Venue Name: Blue Note Hawaii 
+Location: Honolulu, HI 
+Date of Event: 10/30/2018
+------------------------------------------- 
+Venue Name: Blue Note Hawaii 
+Location: Honolulu, HI 
+Date of Event: 10/30/2018
+------------------------------------------- 
+Venue Name: Blue Note Hawaii 
+Location: Honolulu, HI 
+Date of Event: 10/29/2018
