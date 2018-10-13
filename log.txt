@@ -89,3 +89,15 @@ Date of Event: 10/30/2018
 Venue Name: Blue Note Hawaii 
 Location: Honolulu, HI 
 Date of Event: 10/29/2018
+
+============================================================================================ 
+COMMAND: do-what-it-says -- Saturday, October 13, 2018 12:10 AM
+------------------------------------------- 
+Movie title: Batman Begins 
+Year Released: 2005 
+IMDB Rating: 8.3/10 
+Rotten Tomatoes Rating: 84% 
+Country: USA, UK 
+Language: English, Urdu, Mandarin 
+Plot: After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.
+Actors Christian Bale, Michael Caine, Liam Neeson, Katie Holmes
